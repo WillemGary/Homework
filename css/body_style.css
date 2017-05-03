@@ -1,0 +1,64 @@
+
+#navigation{
+	width:100%;
+	margin:0 auto;
+	position:fixed;
+	
+}
+
+#navigation ul{
+	list-style-type:none;
+	position:absolute;
+	margin:0 auto;
+	width:100%;
+}
+#navigation ul li{
+
+float:left;
+width:14%;
+
+}
+#navigation ul li:hover{
+	background:#fff;
+	height:60px;
+	margin-top:-10px;
+	line-height:40px;
+}
+#navigation ul li a{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+	height:40px;
+	color:#fff;
+	margin:10px 10px;
+
+
+	display:block;/*这个比较关键，因为a本身就是联级元素，本身不具有宽高，用这个把它变成块级元素，这样前面设置的宽和高就能起作用了*/
+	text-align:center;
+	text-decoration:none; 
+}
+#navigation ul li a:hover{
+	color:#000;
+}
+.piece{
+	margin-top:100px;
+	margin-left:180px;
+	margin-right:180px;
+	color:#fff;
+}
+h1{
+	font-family:"华文细黑";
+	margin-bottom:100px;
+}
+.article{
+	font-size:20px;
+	color:#fff;
+}
+img{
+	float:left;
+	border-width:3px;
+	border-color:#fff;
+	border-style:solid;
+	margin:0 10px 5px 0;
+	width:220px;
+	height:151px;
+}
