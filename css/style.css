@@ -3,22 +3,16 @@ html, body {
     width: 100%;
     -webkit-font-smoothing: antialiased;
     font-family: "Helvetica Neue", "HelveticaNeue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
-	
-	background-color:black;
-background-image:
-radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
-radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
-radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
-radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
-background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
-background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
-/** stark night background image */
 }
 .yellow {
     background-color: #FFDB56;
 }
 .custom_1{
 
+}
+.cars{
+	width:100%;
+	height:100%;
 }
 .btn {
     width: 200px;
@@ -35,11 +29,12 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
     color: #FFDB56;
 }
 .hero {
-    width: 100%;
-    height: 100%;
+    width: 1000px;
+    height: 600px;
     min-height: 500px;
     position: relative;
-	margin-bottom:10px;
+	z-index:1;
+	margin:0 auto;
 }
 .hero .container {
     position: absolute;
@@ -52,7 +47,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
     transform: translate(-50%, -50%);
     width: 80%;
     height: 80%;
-    z-index: 998;
+    z-index: 100;
 }
 .hero .tagline {
     font-family: "Helvetica Neue", "HelveticaNeue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
@@ -250,14 +245,7 @@ hr {
     display: none;
 }
 }
-footer {
-    width: 100%;
-    position: relative;
-	text-align:center;
-	margin-top:100px;
-	padding-bottom:5px;
-	color:#fff;
-}
+
 footer .info {
     position: absolute;
     left: 50%;
@@ -271,8 +259,5 @@ footer .info {
     color: white;
     font-size: 1.25rem;
     letter-spacing: -1px;
-}
-footer .info a {
-    color: white;
 }
 /*# sourceMappingURL=style.css.map */

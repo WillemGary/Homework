@@ -2,31 +2,37 @@
 #navigation{
 	width:100%;
 	margin:0 auto;
+	padding:0 auto;
 	position:fixed;
+	top:0;
+	left:0;
+	z-index:0;
+	background-color:#000; 
+}
+#navigation2{
+	width:100%;
+	margin:0 auto; 
+	padding:0 auto;
 	
 }
 
-#navigation ul{
+#navigation ul,#navigation2 ul{
 	list-style-type:none;
-	position:absolute;
 	margin:0 auto;
-	width:100%;
+	padding:0 auto;
+	width:100%; 
 }
-#navigation ul li{
+#navigation ul li,#navigation2 ul li{
+	float:left;
 
-float:left;
-width:14%;
+}
+	
 
-}
-#navigation ul li:hover{
-	background:#fff;
-	height:60px;
-	margin-top:-10px;
-	line-height:40px;
-}
-#navigation ul li a{
+#navigation ul li a,#navigation2 ul li a{
 	font-family:Georgia, "Times New Roman", Times, serif;
+	
 	font-size:20px;
+	width:175px;
 	height:40px;
 	color:#fff;
 	margin:10px 10px;
@@ -36,29 +42,80 @@ width:14%;
 	text-align:center;
 	text-decoration:none; 
 }
-#navigation ul li a:hover{
+#navigation ul li:hover,#navigation2 ul li:hover{
+	height:60px;
+	margin-top:-10px;
+	line-height:40px;
+	background-color:#fff;
+}
+#navigation ul li a:hover,#navigation2 ul li a:hover{
 	color:#000;
+}
+#information{
+	margin-top:200px;
+}
+.piece a{
+	text-decoration:none;
 }
 .piece{
 	margin-top:100px;
 	margin-left:180px;
 	margin-right:180px;
-	color:#fff;
+	-webkit-box-shadow: 0 0 15px 5px #fff;   
+	padding:20px 25px;
+	background-color:#E4E4E4;
+} 
+.box{
+	padding-left:25px;
+	border-left-style:dashed;
+	border-color:#666;
 }
+.piece p{
+
+	color:#666;
+	line-height: 30px;
+}
+
 h1{
+
+	padding-left:25px;
 	font-family:"华文细黑";
-	margin-bottom:100px;
+	margin-bottom:50px;
+	color:#666;
+
 }
 .article{
 	font-size:20px;
 	color:#fff;
 }
-img{
+span{
+	color:#fff;
+}
+.img{ 
+    -webkit-box-shadow: 3px 3px 10px #fff;   
 	float:left;
 	border-width:3px;
 	border-color:#fff;
 	border-style:solid;
-	margin:0 10px 5px 0;
+	margin:0 40px 20px 0;
 	width:220px;
 	height:151px;
+}
+#top{
+	position:fixed;
+	top:500px;
+	right:100px;
+	z-index:-999;
+}
+#guide .arrow{
+	margin:0 auto;
+	width:50px;
+	height:50px;
+	transform:rotate(-45deg);
+	border-bottom:3px solid #fff;
+	border-left:3px solid #fff;
+	position:fixed;
+	bottom:50px;
+	right:100px;
+	z-index:999;
 }

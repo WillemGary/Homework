@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>会员登录/注册</title>
+<link rel="stylesheet" type="text/css" href="css/register.css">
+</head> 
+
+<body>
+<div id="navigation">
+	<div id="box">
+    <div>
+    	<p id="name"><b>超跑爱好者俱乐部</b></p>
+    </div>
+    </div>
+</div>
+
+<div id="center">
+	<div id="box2">
+    <div id="login_header">
+    	<p>超跑Clubs</p>
+    </div>
+    <div id="introduce">
+    	<p>来吧，追逐自己的超跑梦，加入超跑爱好者俱乐部了解更多的咨询，我们有许多服务，例如</p>
+        <ul>
+        	<li>最新跑车推送</li>
+            <li>全方位剖析跑车</li>
+            <li>正确跑车保养方式</li>
+            <li>试驾体验</li>
+        </ul>
+    </div>
+    <div id="login">
+    	<div>
+        	<h2>登录账户</h2>
+        </div> 
+        <div id="login_box">
+        	<div class="texbox"><i class="icon iconfont icon-email"></i><input class="frame1" id="e-mail" name="e-mail" value="请输入邮箱！" maxlength="20" size="20" type="email" onfocus="if(value=='请输入邮箱！') {value=''}" onblur="if (value=='') {value='请输入邮箱！'}"></div>
+        	<div class="texbox"><i class="iconfont icon-password"></i><input class="frame" name="password" placeholder="请输入密码！" maxlength="16" size="20" type="password"></div>
+        </div>
+        <div class="box3">
+        	<div class="botton1"><input class="this_botton" value="登录" type="submit"></div>
+			<div id="box2_login"><p><a href="">忘记密码</a></p></div>
+            <div id="box2_register"><p><a href="#" onClick="change_div('box1')">注册</a></p></div>
+        </div>
+    </div>
+    </div>
+    
+    
+    
+	<div id="box1">
+	<div id="register">
+    	<div id="register_header">
+        	<p id="header_name">超跑Clubs</p>
+            <p id="back"><a href="#" onClick="change_div('box2')"><<<返回</a></p>
+        </div>
+        <div id="register_part1">
+        	<div id="register_part1_header">
+            	<p>加入我们</p>
+            </div>
+        	<div class="texbox"><i class="iconfont icon-account"></i><input class="frame1" name="user_name" value="请输入用户名！" maxlength="20" size="20" type="text"  onfocus="if(value=='请输入用户名！') {value=''}" onblur="if (value=='') {value='请输入用户名！'}"></div>
+            <div class="texbox"><i class="icon iconfont icon-email"></i><input class="frame1" name="e-mail" value="请输入邮箱！" maxlength="20" size="20" type="text" onfocus="if(value=='请输入邮箱！') {value=''}" onblur="if (value=='') {value='请输入邮箱！'}"></div>
+        	<div class="texbox"><i class="iconfont icon-password"></i><input class="frame" name="password" placeholder="请输入密码！" maxlength="16" size="20" type="password"></div>
+            <div class="texbox"><i class="iconfont icon-password"></i><input class="frame" name="password" placeholder="请确认密码！" maxlength="16" size="20" type="password"></div>
+            <div class="texbox"><span>性别：</span>
+            	<span><input name="sex" checked="checked" type="radio">男</span>
+ 				<span><input name="sex" checked="checked" type="radio">女</span>
+            </div>
+        </div>
+        
+        <div id="register_part2">
+        	<div class="texbox">
+            <span>年收入状况：</span>
+            <select name="income">
+		        <option>10万以下</option>
+		        <option selected="selected">10-50万</option>
+                <option>50-200万</option>
+                <option>200万以上</option>
+			</select>
+            </div>
+            <div class="texbox" id="brand">
+            	<span>喜欢的跑车品牌：</span>
+                <div id="brand">
+           			<span><input name="brand" checked="checked" type="checkbox">兰博基尼</span>
+					<span><input name="brand" type="checkbox">阿斯顿马丁</span>
+					<span><input name="brand" type="checkbox">来肯</span>
+					<span><input name="brand" checked="checked" type="checkbox">柯尼塞格</span>
+            		<span><input name="brand" type="checkbox">法拉利</span>
+            		<span><input name="brand" type="checkbox">玛莎拉</span>
+           	 		<span><input name="brand" checked="checked" type="checkbox">帕加尼</span>
+                </div>
+            </div>
+            <div class="texbox">
+            <p>自我介绍：</p>		
+            <textarea name="introduce" cols="20" rows="10" onfocus="if(value=='请介绍一下自己！') {value=''}" onblur="if (value=='') {value='请介绍一下自己！'}">请介绍一下自己！</textarea>				
+            </div>
+            </div>
+        </div>
+            <div id="botton_box">
+            	<div id="botton">
+        			<div class="botton"><input class="this_botton" value="注册" type="submit"></div>
+					<div class="botton"><input class="this_botton" value="重新填写" type="reset"></div>
+                </div>
+        	</div>
+	</div>
+    </div>
+</div>
+    
+    <script type="text/javascript">
+		function　iknow(sType){
+			var f=document.forms[0];
+			//var f=document.formTest;
+			switch(sType){
+				case "text":
+					alert(f.user_name.value);
+					//f.textTest.value="这是第二个新的输入";
+					break;
+				case "email":
+					alert(f.e-mail.value);
+					//f.textTest.value="这是第二个新的输入";
+					break;
+				case "password":
+					alert(f.password.value);
+					break;
+					
+				case "textarea":
+					alert(f.introduce.value) ;
+					break;
+
+				case "radio":					
+					for (var i=0;i<f.sex.length;i++)
+						if (f.sex[i].checked==true)
+							alert("第"　+　(i+1)  +"项被选中了！")						
+					break;	
+					
+				case "checkbox":
+					for(var i=0;i<f.brand.length;i++)
+						if (f.brand[i].checked==true)
+							alert("第"　+　(i+1)  +"项被选中了！")						
+					break;	
+				
+				case "combox":
+					var i=f.income.selectedIndex
+					alert("第"　+ (i+1) + "项被选中了:"
+					+ f.income.options[i].text);
+					break;	
+				}
+		}
+		
+		function change_div(id){
+			if(id == "box1")
+			{
+				document.getElementById("box2").style.display = 'none';
+				document.getElementById("box1").style.display = 'block';
+			}
+			else
+			{
+				document.getElementById("box1").style.display = 'none';
+				document.getElementById("box2").style.display = 'block';
+			}
+		}
+	</script>
+</body>
+</html>

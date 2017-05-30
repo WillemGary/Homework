@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	width:100%;
+	background-image:url(../img/subtle_white_feathers.png);
+}
+#navigation{
+	width=100%;
+	height:50px;
+	background-color:#051A00;
+}
+#navigation #box{
+	width:70%;
+	margin:0 auto;
+}
+#navigation div div{
+	float:left;
+}
+#navigation div #name{
+	font-family:"SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-size:18px;
+	color:#fff;
+}
+#navigation .register{
+	float:right;
+	padding-right:20px;
+
+}
+#navigation .register a{
+	font-family:"SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-size:16px;
+	color:#fff;
+	text-decoration:none;
+}
+#navigation .register a:hover{
+	text-decoration:underline;
+	color:#fff;
+}
+#body{
+	width:1000px;
+	height:550px;
+	margin:80px auto;
+	background-color:#fff;  
+}
+#header{
+	width:100%;
+	background-color:#fff;
+	height:50px;
+	border-bottom-style:groove;
+	border-bottom-color:#666;
+}
+ul{
+	list-style-type:none;
+}
+ul li{
+	float:left;
+	width:16%;
+}
+ul li:hover{
+	border-bottom-style:inset;
+	border-width:5px;
+}
+ul li a{
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	color:#000;
+	line-height:3;
+}
+#first_page{
+	display:block;
+}
+#second_page{
+	display:none;
+}
+#third_page{
+	display:none;
+}
+#forth_page{
+	display:none;
+}
+#fifth_page{
+	display:none;
+}
+#sixth_page{
+	display:none;
+}
+.pages{
+	width:700px;
+	margin:0 auto;
+	
+}
+.page_header{
+	border-bottom-style:dotted;
+	border-bottom-color:#666;
+	border-width:1px;
+}
+#article{
+	line-height:2.5;
+	padding:50px;
+}
+#join{
+	width:100%;
+	padding-bottom:50px;
+}
+#join p a{
+	text-decoration:none;
+	font-size:14px;
+	color:#0085cf;
+	float:right;
+}
+#join p a:hover,.learn_more a:hover{
+	text-decoration:underline;
+}
+.img{
+	width:50%;
+	margin:90px 0;
+	float:left;
+	
+}
+.img img{
+	width:100%;
+	-webkit-box-shadow:0 5px 10px #666;
+}
+.page_introduce{
+	width:40%;
+	float:right;
+	margin:50px auto;
+	line-height:2.5;
+}
+.learn_more a{
+	text-decoration:none;
+	font-size:14px;
+	color:#0085cf;
+}
+footer{
+	width:100%;
+	text-align:center;
+	background-color:#ccc;
+	padding:5px;
+	font-size:14px;
+	color:#666;
+}
+footer a{
+	text-decoration:none;
+	color:#0085cf;
+}

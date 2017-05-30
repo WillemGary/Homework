@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image:url(../img/subtle_white_feathers.png);
+}
+#navigation{
+	width=100%;
+	height:50px;
+	background-color:#051A00;
+}
+#navigation #box{
+	width:70%;
+	margin:0 auto;
+}
+#navigation div div{
+	float:left;
+}
+#navigation div #name{
+	font-family:"SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-size:18px;
+	color:#fff;
+}
+#center{
+	width:1000px;
+	margin:50px auto;
+}
+
+#box1{
+	display:none;
+	
+}
+#box2{
+	display:block;
+}
+#center #box2 #login,#register_part2{
+	width:35%;
+	float:right;
+	padding:50px 80px;
+	background:url(../img/bg-signin-divider.png) no-repeat;
+}
+#login_header,#register_header{
+	width:95%;
+	padding-bottom:14px;
+	font-size:24px;
+	border-bottom:1px solid #e6e6e6;
+	margin: 15px auto;
+	height:18px;
+	line-height:0.8;
+	font-family:"Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+}
+#register_header{
+	margin-top:25px;
+}
+#header_name{
+	width:600px;
+	float:left;
+	margin:0;
+}
+#back{
+	float:right;
+	margin:0;
+}
+
+#introduce{
+	float:left;
+	width:35%;
+	padding:50px 60px;
+	font-size:18px;
+	line-height:24px;
+	font-family:"Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+}
+#introduce ul{
+	list-style-type:disc;
+	list-style-position:inside;
+	padding:13px 12px;
+	font-size:16px;
+	font-style: normal;
+	color:#666;
+	margin:0 0;
+}
+#box2,#box1{
+	width:100%;
+	float:right;
+	margin:50px 0;
+	-webkit-box-shadow:0 0 1px 1px #CCC;
+	border-radius:5px;
+	padding-bottom:50px;
+	background-color:#fff;
+	font-family:"Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+	color:#666;
+	font-size:18px;
+}
+.box3{
+	width:80%;
+}
+.botton1{
+	float:right;
+}
+#box2_login{
+	float:right;
+	margin:0 20px;
+	line-height:0;
+}
+#box2_register{
+	float:left;
+	line-height:0;
+}
+#box2_login p a,#box2_register p a,#back a{
+	font-family:"SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-size:14px;
+	text-decoration:none;
+	color:#0085cf;
+}
+#box2_login p a:hover,#box2_register p a:hover{
+	text-decoration:underline;
+}
+.texbox{
+	width:400px;
+	font-family:"SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-size:14px;
+}
+span{
+	width:100px;
+	display:inline-block;
+	margin:10px 0;
+}
+.title{
+	float:left;
+}
+#brand{
+	height:150px;
+}
+#botton_box{
+	width:100%;
+}
+#botton{
+	margin:0 auto;
+	width:180px;
+}
+.botton{
+	float:left;
+	text-align:center;
+	margin:5px;
+}
+.this_botton{
+	width:80px;
+	height:30px;
+	border:1px solid #1992d9;
+	border-radius:4px;
+	box-shadow:inset 0 1px 0 rgba(255,255,255,0.2);
+	background:linear-gradient(#37aaea,#117ed2);
+	color:#fff;
+	display:inline-block;
+	font:11px/1.5 "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+}
+.frame,.frame1{
+	width:300px;
+	height:40px;
+	margin:10px 0;
+	border-radius:5px;
+	-webkit-box-shadow: 0 0 1px 1px #CCC inset;   
+}
+.frame1{
+	color:#666;
+}
+#brand{
+	width:300px;
+	float:right;
+}
+textarea{
+	width:350px;
+	height:150px;
+	border-radius:5px;
+	border-style:solid;
+}
+#register{
+	height:500px;
+}
+#register_part1{
+	width:35%;
+	float:left;
+	padding:0 60px;
+}
+#register_part1_header{
+	font-size:24px;
+	margin:50px 0;
+}
+	
+
+@font-face {font-family: "iconfont";
+  			src: url('iconfont.eot?t=1495720172418'); /* IE9*/
+ 			src: url('iconfont.eot?t=1495720172418#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  			url('iconfont.woff?t=1495720172418') format('woff'), /* chrome, firefox */
+  			url('iconfont.ttf?t=1495720172418') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  			url('iconfont.svg?t=1495720172418#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  position:relative;
+  right:5px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-email:before { content: "\e69f"; }
+
+.icon-account:before { content: "\e6b8"; }
+
+.icon-password:before { content: "\e82b"; }
+

@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	width:100%;
+	background-image:url(../img/subtle_white_feathers.png);
+	background-color:#051A00;
+}
+
+#navigation{
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	margin:0;
+	background-color:#051A00;
+	font-family:"SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-size:20px;
+
+}
+#header{
+	margin:0 auto;
+	width:800px;
+}
+#header ul{
+	text-align:center;
+	margin:0;
+	list-style-type:none;
+}
+#header ul li{
+	float:left;
+	width:100px;
+	height:30px;
+	padding:8px 10px;
+}
+#header ul li a{
+	padding:10px 10px;
+	color:#fff;
+	text-align:center;
+	text-decoration:none; 
+}
+#header ul li:hover{
+	background-color:#fff;
+}
+#header ul li a:hover{
+	color:#000;
+	text-decoration:underline;
+}
+
+h2 {
+    font-family:"华文彩云",Tahoma, Geneva, sans-serif;
+    font-size: 32px;
+    text-shadow: 0 1px 0 #fff;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+    padding-bottom:5px;
+	border-bottom:dotted;
+
+}
+
+#imformation{
+    padding-bottom: 50px;
+	margin-bottom: 20px;
+	margin-top:100px;
+	padding-top:10px;
+	background-color: #ffffff;
+}
+section {
+	width:800px;
+	margin:0 auto;
+    padding-bottom: 50px;
+	margin-bottom: 20px;
+	padding-top:10px;
+	background-color: #ffffff;
+}
+section ul{
+	font-family: "幼圆";
+	font-size:18px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	line-height: 30px;
+}
+
+img {
+	width: 120px;
+	height: 180px;
+	padding: 4px;
+	border: 1px solid #369;
+	float: left;
+	background-color: #EEEEEE;
+	margin-top: 30px;
+	margin-right: 100px;
+	margin-bottom: 0;
+	margin-left: 20px;
+}
+
+span {
+	font-family:"幼圆",Tahoma, Geneva, sans-serif;
+	font-size:18px;
+    display: inline-block;
+    padding-right: 50px;
+    width: 180px;
+    font-weight: normal;
+}
+
+.table{
+	font-family:"幼圆";
+	font-size:18px;
+	text-align:center;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+#growpth,div,#characterist,#ability{
+	font-family: "幼圆";
+	font-size:18px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	line-height: 30px;
+}
+
+footer{
+	width:100%;
+	text-align:center;
+	background-color:#ccc;
+	padding:5px;
+	font-size:14px;
+	color:#666;
+}
+footer a{
+	text-decoration:none;
+	color:#0085cf;
+}
