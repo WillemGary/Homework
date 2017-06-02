@@ -4,11 +4,12 @@
 body{
 	width:100%;
 	background-image:url(../img/subtle_white_feathers.png);
+	margin: 0;
 }
 #navigation{
 	width=100%;
 	height:50px;
-	background-color:#051A00;
+	background:rgba(0,0,0,0.8);
 }
 #navigation #box{
 	width:70%;
@@ -134,7 +135,7 @@ ul li a{
 	font-size:14px;
 	color:#0085cf;
 }
-footer{
+#footer{
 	width:100%;
 	text-align:center;
 	background-color:#ccc;
@@ -142,7 +143,7 @@ footer{
 	font-size:14px;
 	color:#666;
 }
-footer a{
+#footer a{
 	text-decoration:none;
 	color:#0085cf;
 }
