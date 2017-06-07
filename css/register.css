@@ -130,9 +130,7 @@ span{
 .title{
 	float:left;
 }
-#brand{
-	height:150px;
-}
+
 #botton_box{
 	width:100%;
 }
@@ -172,7 +170,7 @@ span{
 }
 textarea{
 	width:350px;
-	height:150px;
+	height:200px;
 	border-radius:5px;
 	border-style:solid;
 }
